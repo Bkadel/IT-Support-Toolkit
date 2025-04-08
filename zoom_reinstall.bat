@@ -1,0 +1,6 @@
+@echo off
+echo Uninstalling Zoom...
+wmic product where "name like '%%Zoom%%'" call uninstall /nointeractive
+echo Installing Zoom...
+start https://zoom.us/client/latest/ZoomInstaller.exe
+pause
