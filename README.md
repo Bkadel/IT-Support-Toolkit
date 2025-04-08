@@ -53,8 +53,6 @@ For Windows:
 	2.	Run the following Python scripts using Command Prompt (as Administrator):
 	•	Open Command Prompt (Right-click and select Run as administrator).
 	•	Run the following commands:
-
-# ```python
     
 **python clear_temp.py
 python ping_test.py
@@ -83,8 +81,7 @@ python3 disk_usage.py
 3.	To run the Zoom reinstallation script (zoom_reinstall.sh):
 	1.	Open Terminal.
 	2.	Navigate to the folder where the zoom_reinstall.sh file is located:
-
- #    cd /path/to/your/script
+    cd /path/to/your/script
 
     3.	Make the script executable by running: chmod +x zoom_reinstall.sh
 
